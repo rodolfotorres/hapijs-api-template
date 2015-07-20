@@ -1,10 +1,11 @@
 'use strict';
 
 var Promise = require('bluebird');
+var hello = require('../model/hello-model');
 
 
 function helloGreeting(callback) {
-  callback(null, "Hellooo");
+  callback(null, hello.greet());
 }
 
 

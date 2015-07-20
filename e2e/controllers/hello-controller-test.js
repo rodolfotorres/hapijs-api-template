@@ -6,7 +6,7 @@ describe('Hello Controller', function() {
   describe('hello from the Controller', function() {
     it('should return Hellooo', function(done) {
       extrasController.run().then(function(data) {
-        expect(data).to.equal('Hellooo');
+        expect(data).to.equal('Hello');
         done();
       });
     });
