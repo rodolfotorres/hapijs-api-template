@@ -1,0 +1,35 @@
+{
+  "name": "hapijs-api-template",
+  "version": "0.0.1",
+  "description": "hapijs-api-template",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha ./test/* --watch",
+    "start": "node src/server.js"
+  },
+  "author": "rodolfotorres",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "chakram": "^1.0.1",
+    "gulp": "^3.9.0",
+    "gulp-jshint": "^1.11.0",
+    "gulp-load-plugins": "^1.0.0-rc.1",
+    "gulp-mocha": "^2.1.2",
+    "gulp-plumber": "^1.0.1",
+    "gulp-util": "^3.0.6",
+    "jshint-stylish": "^2.0.1",
+    "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "bluebird": "^2.9.30",
+    "boom": "^2.8.0",
+    "good": "^6.1.4",
+    "good-console": "^5.0.2",
+    "hapi": "^8.6.1",
+    "hapi-swagger": "^0.7.3",
+    "joi": "^6.5.0",
+    "lodash": "^3.9.3",
+    "qs": "^4.0.0"
+  }
+}
